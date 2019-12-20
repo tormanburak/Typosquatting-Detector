@@ -1,6 +1,6 @@
 # Typosquatting-Detector
 
-General information : <br>
+<b>General information :</b> <br>
 Domain squatting refers to the attackers' practice of using domain names that are deceptively similar to popular domain names, as a way of getting user traffic and confusing users about the nature of any one given site. The most popular type of domain squatting is called typosquatting and it capitalizes on a user's typos. Attackers register domain such as twwitter.com (two 'w's instead of one), wwwpaypal.com (missing dot between "www" and paypal.com) and gankofamerica.com (neighboring character of 'b') and can then expose users to a wide range of abuse.
 
 Project description : <br>
