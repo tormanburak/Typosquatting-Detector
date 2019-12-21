@@ -20,7 +20,7 @@ The master node must push all possible typosquatting variants to a queue where t
   </li>
     <li>
     <p>
-Each worker node must use Headless Chrome to "crawl" each variant, collecting a screenshot and the HTML code of each discovered typosquatting domain. <br>
+Each worker node uses Headless Chrome to "crawl" each variant, collecting a screenshot and the HTML code of each discovered typosquatting domain. <br>
     </p>
   </li>
   <li>
