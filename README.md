@@ -33,10 +33,13 @@ Scaling is as easy as registering new workers.<br>
 <b>Languages, Frameworks, Libraries etc. :</b>
 <ul>
   <li>
-    <p>Node.js</p>
+    <p>Node.js : it was greater fit for the project over python, java, etc.</p>
   </li>
   <li>
-    <p>Express.js</p>
+    <p>Express.js : really simplifies working with Node.js when dealing with http requests.</p>
+  </li>
+  <li>
+    <p><a href='https://github.com/bee-queue/bee-queue'>bee-queue</a> : main node-package used for implementing distributed worker system. Great package, similar to <a href='https://github.com/Automattic/kue'>Kue</a> and <a href='https://github.com/OptimalBits/bull'Bull</a>, i found it easier to implement vs the others.</p>
   </li>
   <li>
     <p>Redis</p>
