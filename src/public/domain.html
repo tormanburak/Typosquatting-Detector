@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="../css/domainStyle.css"/>
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+<script src="https://rawgit.com/jackmoore/autosize/master/dist/autosize.min.js"></script>
+
+<script src="galleryScript.js"></script>
+
+<head>
+    <meta charset="utf-8">
+    <title>Stony Ballerz</title>
+</head>
+<body style="margin: 0">
+<div class="domainPlaceHolder" id="domainPlaceHolder">
+
+</div>
+</div>
+</div>
+</body>
+
+</html>
+<script>
+    $("#domainPlaceHolder").append(localStorage.getItem("domainHtml"));
+    document.getElementById("textArea").value = localStorage.getItem("htmlCode");
+
+</script>
+<script >
+autosize(document.getElementById("textArea"));
+</script>
+   <!-- <div class="h1PlaceHolder">
+  <h1>Alvin.com</h1>
+</div>
+<div class="wrap">
+   <div class="leftPlaceHolder">
+       <img src="../facebook.com/bridge.jpg">
+   </div>
+    <div class="rightPlaceHolder">
+       <h2>HTML CODE</h2>
+     <textarea id="textArea"  oninput='auto_grow(this)' ></textarea>
+    </div> -->

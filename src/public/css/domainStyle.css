@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    background: navy;
+}
+
+.h1PlaceHolder {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    /*  border-bottom: 3px solid magenta; */
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.leftPlaceHolder {
+    padding: 1em;
+    text-align: center;
+    float: left;
+}
+
+.leftPlaceHolder img {
+    height: 30em;
+    padding-left: 3em;
+}
+
+.rightPlaceHolder {
+    text-align: center;
+    padding: 1em;
+    float: right;
+}
+
+#htmlH2 {
+    background-color: transparent;
+    color: #FFF;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    height: 28px;
+    font-weight: bold;
+    padding-bottom: 1px;
+    margin: 1px;
+}
+
+#textArea {
+    width: 23em;
+    overflow: hidden;
+    background-color: #FFF;
+    color: #222;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    resize: none;
+    line-height: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 45px;
+    padding-bottom: 34px;
+    background-image: url(https://static.tumblr.com/maopbtg/E9Bmgtoht/lines.png), url(https://static.tumblr.com/maopbtg/nBUmgtogx/paper.png);
+    background-repeat: repeat;
+    -webkit-border-radius: 12px;
+
+}

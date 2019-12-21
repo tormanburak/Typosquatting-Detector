@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Stony Ballerz</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Bungee Shade' >
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="scripts/index.js"></script>
+    <script type="text/javascript" src="scripts/galleryScript.js"></script>
+    <script type="text/javascript" src ="scripts/typosquat.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/toolbar.css"/>
+    <link rel="stylesheet" type="text/css" href="css/mainPageStyle.css"/>
+    <link rel="stylesheet" type="text/css" href="//brick.a.ssl.fastly.net/Roboto:400"/>
+    <link rel="stylesheet" type="text/css" href="css/gallery.css">
+</head>
+<body>
+<div class="toolbar">
+    <div id="infoSlider">
+      <a href="#" onclick="openNav()"class="infoOpenBtn"> <img src="img/folderSearch.png" style="width: 1.5em; height: auto"></a>
+
+    </div>
+    <div class="heading">
+        <h1>Typosquatting Detector </h1>
+    </div>
+</div>
+<div class="sidebar" id="mySidebar">
+    <a href="javascript:void(0)" class="closebtn" id="inputSlider" onclick="closeNav()">&times;</a>
+    <nav class="navigation">
+        <img src="img/folderSearch.png">
+
+      <input type="text" id="searchPrevInput" onkeyup="filterPreviousSearches()" placeholder="Search for Previous Domains" title="Type in a domain">
+      <ul id="UL">
+              <div id="searchPlaceHolder">
+            </ul>
+    </nav>
+</div>
+<div class="searchDiv" id="namer">
+
+      <input type="text" class="searchField" id="inputField" placeholder="Enter website" onfocus="this.placeholder=''" onblur="this.placeholder='Enter website'" onkeyup="removeError()">
+          <a href="#" class="btn btn-white btn-animation-1" onclick ="requestDomain()">
+            <i class="text-blue fa fa-search"></i></a>
+      <div id="result"></div>
+  </div>
+  <h1 id="error">Please Enter Valid URL !</h1>
+  <div class="container gallery-container" id="galleryContainer">
+    <div class="tz-gallery">
+      <div class="loadingInfo" id="load" style="display:none">
+        <canvas id="canvas" width="150" height="150"></canvas>
+          <p id="loadingText">This may take upto 45 seconds</p>
+      </div>
+        <div class="row">
+            <div class="placeholder" id="placeHolder">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+
+  // ----------------------------------INTIAL DB CALL-------------------------------------
+  startUP();
+// ----------------------------------FINISH-------------------------------------
+    baguetteBox.run('.tz-gallery');
+  </script>
+  <script type="text/javascript" src="scripts/canvas.js"></script>
+</html>

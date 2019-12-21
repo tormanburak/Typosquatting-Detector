@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    color: black;
+}
+ h1{
+     color: midnightblue;
+     font-size: 4em;
+     margin: 0px;
+     padding-top: .5em;
+ }
+.image{
+    background-color: black;
+    color: black;
+    height: 47em;
+}
+.parallax {
+    background-image: url("../img/stonyBallerz.gif");
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40em;
+    margin: 0;
+
+}
+.homeBtn{
+    width: 150px;
+    height: 50px;
+    border:solid 2px white;
+    border-radius: 5px;
+    background: black;
+    font-size: 25px;
+    color: midnightblue;
+}
+.formBtn{
+    padding-top: 22em;
+
+}
+
+.homeBtn:hover {
+    background:white;
+    color:midnightblue;
+}
