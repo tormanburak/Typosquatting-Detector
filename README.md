@@ -64,6 +64,8 @@ Scaling is as easy as registering new workers.<br>
   <img src="demopics/ss5.PNG"></img>
   <p>(Cont.)</p>
   <img src="demopics/ss6.PNG"></img>
+  <p>(Result page example)</p>
+  <img src="demopics/ss7.PNG"></img>
 
 
 
