@@ -1,7 +1,7 @@
 {
-  "name": "331",
+  "name": "Typosqautter",
   "version": "1.0.0",
-  "description": "331 project",
+  "description": "Typosqautter",
   "main": "master.js",
   "scripts": {
     "dev": "nodemon app"
