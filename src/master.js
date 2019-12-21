@@ -1,3 +1,5 @@
+
+//Burak Torman, www.buraktormandeveloper.com
 let connectionFile = require ("./connection.js")
 const typosquat = require("./public/scripts/typosquat.js");
 const express = require('express');
