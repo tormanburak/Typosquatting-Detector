@@ -10,13 +10,17 @@ Purpose of this project is to design and implement a distributed typosquatting d
 <ul>
   <li>
     <p>Master node with web dashboard where users can submit new scans and see the resulting reports of old scans.<br>
-Given a domain name, the master node must generate the possible typosquatting variants of that domain name and request the workers to scan them. <br>
+Given a domain name, the master node generates the possible typosquatting variants of that domain name and request the workers to scan them. <br>
     </p>
   </li>
   <li>
     <p>
 The master node must push all possible typosquatting variants to a queue where they will be consumed by one or more workers. <br>
-Each worker node must use Headless Chrome to "crawl" each variant, collecting a screenshot and the HTML code of each discovered typosquatting domain. <br>
+    </p>
+  </li>
+    <li>
+    <p>
+Each worker node uses Headless Chrome to "crawl" each variant, collecting a screenshot and the HTML code of each discovered typosquatting domain. <br>
     </p>
   </li>
   <li>
@@ -26,4 +30,25 @@ Scaling is as easy as registering new workers.<br>
     </p>
   </li>
 </ul>
+<b>Languages, Frameworks, Libraries etc. :</b>
+<ul>
+  <li>
+    <p>Node.js : it was greater fit for the project over python, java, etc.</p>
+  </li>
+  <li>
+    <p>Express.js : really simplifies working with Node.js when dealing with http requests.</p>
+  </li>
+  <li>
+    <p><a href='https://github.com/bee-queue/bee-queue' target='_blank'>bee-queue</a> : main node-package used for implementing distributed worker system. Great package, similar to <a href='https://github.com/Automattic/kue' target='_blank'>Kue</a> and <a href='https://github.com/OptimalBits/bull' target='_blank'>Bull</a>, i found it easier to implement vs the others.</p>
+  </li>
+  <li>
+    <p><a href='https://redis.io/' target='_blank'>Redis</a> : in-memory data structure store, used as a database, cache and message broker. Used to store information about jobs stored on the job queue</p>
+  </li>
+  <li>
+    <p>MySQL : standard  CRUD DB operations</p>
+  </li>
+  <li>
+    <p><a href='https://github.com/puppeteer/puppeteer' target='_blank'>Puppeteer</a> : simple and great Headless Chrome API, used for crawling websites. Retrevieng the HTML source code and screenshot of the website in this case.</p>
+  </li>
+  </ul>
 
