@@ -51,5 +51,12 @@ Scaling is as easy as registering new workers.<br>
     <p><a href='https://github.com/puppeteer/puppeteer' target='_blank'>Puppeteer</a> : simple and great Headless Chrome API, used for crawling websites. Retrevieng the HTML source code and screenshot of the website in this case.</p>
   </li>
   </ul>
-  ![Alt text](https://github.com/tormanburak/Typosquatting-Detector/blob/master/demopics/ss1.PNG?raw=true)
+  <img src="demopics/ss1.PNG"></img>
+  <img src="demopics/ss2.PNG"></img>
+  <img src="demopics/ss3.PNG"></img>
+  <img src="demopics/ss4.PNG"></img>
+  <img src="demopics/ss5.PNG"></img>
+  <img src="demopics/ss6.PNG"></img>
+
+
 
