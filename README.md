@@ -39,16 +39,16 @@ Scaling is as easy as registering new workers.<br>
     <p>Express.js : really simplifies working with Node.js when dealing with http requests.</p>
   </li>
   <li>
-    <p><a href='https://github.com/bee-queue/bee-queue'>bee-queue</a> : main node-package used for implementing distributed worker system. Great package, similar to <a href='https://github.com/Automattic/kue'>Kue</a> and <a href='https://github.com/OptimalBits/bull'Bull</a>, i found it easier to implement vs the others.</p>
+    <p><a href='https://github.com/bee-queue/bee-queue' target='_blank'>bee-queue</a> : main node-package used for implementing distributed worker system. Great package, similar to <a href='https://github.com/Automattic/kue' target='_blank'>Kue</a> and <a href='https://github.com/OptimalBits/bull' target='_blank'>Bull</a>, i found it easier to implement vs the others.</p>
   </li>
   <li>
-    <p>Redis</p>
+    <p><a href='https://redis.io/' target='_blank'>Redis</a> : in-memory data structure store, used as a database, cache and message broker. Used to store information about jobs stored on the job queue</p>
   </li>
   <li>
-    <p>MySQL</p>
+    <p>MySQL : standard  CRUD DB operations</p>
   </li>
   <li>
-    <p>Puppeteer</p>
+    <p><a href='https://github.com/puppeteer/puppeteer' target='_blank'>Puppeteer</a> : simple and great Headless Chrome API, used for crawling websites. Retrevieng the HTML source code and screenshot of the website in this case.</p>
   </li>
   </ul>
 
