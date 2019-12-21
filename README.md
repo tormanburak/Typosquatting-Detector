@@ -51,4 +51,19 @@ Scaling is as easy as registering new workers.<br>
     <p><a href='https://github.com/puppeteer/puppeteer' target='_blank'>Puppeteer</a> : simple and great Headless Chrome API, used for crawling websites. Retrevieng the HTML source code and screenshot of the website in this case.</p>
   </li>
   </ul>
+  <b>Demo pictures : </b>
+  <p>(Homepage)</p>
+  <img src="demopics/ss1.PNG"></img>
+  <p>(User enters Instagram as the original domain name, and gets results)</p>
+  <img src="demopics/ss2.PNG"></img>
+  <p>(Cont. Most of the screenshots give the same results on popular domains because attackers often mimic the original domain's hompage to trick users into thinking its the original domain)</p>
+  <img src="demopics/ss3.PNG"></img>
+  <p>(Cont.)</p>
+  <img src="demopics/ss4.PNG"></img>
+  <p>(Entering a different domain name, less popular one.)</p>
+  <img src="demopics/ss5.PNG"></img>
+  <p>(Cont.)</p>
+  <img src="demopics/ss6.PNG"></img>
+
+
 
