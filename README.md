@@ -10,12 +10,16 @@ Purpose of this project is to design and implement a distributed typosquatting d
 <ul>
   <li>
     <p>Master node with web dashboard where users can submit new scans and see the resulting reports of old scans.<br>
-Given a domain name, the master node must generate the possible typosquatting variants of that domain name and request the workers to scan them. <br>
+Given a domain name, the master node generates the possible typosquatting variants of that domain name and request the workers to scan them. <br>
     </p>
   </li>
   <li>
     <p>
 The master node must push all possible typosquatting variants to a queue where they will be consumed by one or more workers. <br>
+    </p>
+  </li>
+    <li>
+    <p>
 Each worker node must use Headless Chrome to "crawl" each variant, collecting a screenshot and the HTML code of each discovered typosquatting domain. <br>
     </p>
   </li>
