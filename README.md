@@ -30,4 +30,22 @@ Scaling is as easy as registering new workers.<br>
     </p>
   </li>
 </ul>
+<b>Languages, Frameworks, Libraries etc. :</b>
+<ul>
+  <li>
+    <p>Node.js</p>
+  </li>
+  <li>
+    <p>Express.js</p>
+  </li>
+  <li>
+    <p>Redis</p>
+  </li>
+  <li>
+    <p>MySQL</p>
+  </li>
+  <li>
+    <p>Puppeteer</p>
+  </li>
+  </ul>
 
